@@ -1,0 +1,114 @@
+
+
+body {
+    font-family: sans-serif;
+    background-color:rgb(108, 248, 95);
+}
+
+h1 {
+    text-align: center; 
+    color:yellow ;
+
+
+}
+span{ 
+    color:red ;
+}
+.white{
+    color: gray;
+}
+nav{
+    padding: 10px;
+    text-align: center;
+    border-top: 2px solid yellow;
+    border-bottom: 2px solid yellow;
+}
+nav a{
+    padding: 5px;
+    text-decoration: violet;
+    margin:10px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+nav a:hover{
+    color:rgb(3, 3, 90);
+    transform: scale(2);
+  
+   
+}
+h2{
+    text-align: center;
+}
+table{
+    border:2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+tr{
+    border:2px solid black;
+}
+td{
+    border:2px solid black;
+    padding: 5px;
+    font-weight: bolder;
+}
+tr:first-child{
+    background-color: darkgreen;
+}
+footer{
+    background-color: darkgreen;
+}
+section{
+   
+    display:flex;
+    justify-content: center;
+    
+}
+article{
+    border: 3px solid black;
+    padding: 10px;
+    margin:20px;
+}
+article:hover{
+    background-color: azure;
+    transform: scale(2);
+    transition: 2s;
+}
+footer {
+  background-color:darkgreen; /* Темний фон */
+  color: rgb(0, 0, 0); /* Білий текст */
+  padding: 20px 0; /* Відступи згорі і знизу */
+  text-align: center; /* Текст по центру */
+  font-family: Arial, sans-serif; /* Шрифт */
+}
+
+.footer-content {
+  max-width: 1200px; /* Максимальна ширина вмісту */
+  margin: 0 auto; /* Центрування вмісту */
+}
+
+footer p {
+  font-size: 16px;
+  margin: 0;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+  color: #3498db; /* Синій при наведенні */
+}
